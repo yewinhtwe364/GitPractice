@@ -6,4 +6,3 @@ def generate_ID(x):
             data = line.strip().split(",")
             if data[0].startswith("M"):
                 return data
-            
